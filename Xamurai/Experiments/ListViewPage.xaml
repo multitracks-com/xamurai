@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="Xamurai.ListViewPage"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Xamurai"
+	Title="List View">
+	<ContentPage.Content>
+
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Label Text="4Pre9: Cell recycle seems to be broken: Collapse doesn't work once recycled ; Cell Size not honored. ; Circle CornerRadius calc not fired (Works 4Pre7) " TextColor="Red" />
+			<ListView
+				Grid.Row="1"
+				HasUnevenRows="True"
+				ItemsSource="{Binding Cars}"
+				SelectionMode="None"
+				SeparatorVisibility="None">
+				<!--  BUG (pre8) recycled cells are not measured when cycled  -->
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<local:CarView Padding="0,10,0,0" />
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
