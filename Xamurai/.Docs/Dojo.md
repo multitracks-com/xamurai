@@ -4,7 +4,7 @@
 
 ## Instructions﻿
 
-Implement a collection view for a collection of cars (see some of the Experiments pages)
+Implement a collection view for a collection of cars (see some of the Experiments pages). The layout should preferably look like the FlexLayoutPage example, but swiping behavior similar to a Carousel Page where you swipe 2 columns at a time, or like the CollectionView GridLayout example where it snaps into place.
 
 - Use the /Challenges/PagedCollectionPage.xaml for your implementation
 - Implement carousel paging for a 2-column page, but where each element stacks like in the FlexLayoutPage example
