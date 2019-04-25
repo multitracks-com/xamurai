@@ -15,7 +15,7 @@ For Example, you can choose to use a Carousel View that contains flex layouts by
 
 - Target Android as primary platform
 - Feel free to add / remove / upgrade / downgrade nuget packages to help you with your task
-- Recommendation is not to spend more than 4 - 5 hours on this task. If incomplete, just add some notes as to your intent for what you did do.
+- Recommendation is not to spend more than 3 - 4 hours on this task. If incomplete, just add some notes as to your intent for what you did do.
 
 #### Stretch Goals
 
