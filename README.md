@@ -1,6 +1,6 @@
 # Xamurai
 Want to work with MultiTracks.com? You have found the right place :)
 
-## Challenges
+## Dojo
 
-see the [Challenges](Xamurai/.Docs/Challenges.md) document for instructions
+see the [DOJO](Xamurai/.Docs/Dojo.md) document for instructions

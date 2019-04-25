@@ -35,7 +35,7 @@
     <EmbeddedResource Update="Experiments\ListViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Challenges\PagedCollectionPage.xaml">
+    <EmbeddedResource Update="Dojo\PagedCollectionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -57,6 +57,6 @@
 
   <ItemGroup>
     <None Include="..\README.md" Link=".Docs\README.md" />
-    <None Include=".Docs\Challenges.md" />
+    <None Include=".Docs\Dojo.md" />
   </ItemGroup>
 </Project>

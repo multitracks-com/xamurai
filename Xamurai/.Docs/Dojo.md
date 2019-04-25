@@ -1,4 +1,4 @@
-# Challenge #1
+# Dojo Challenge #1
 
 **Paged Collection View**
 
