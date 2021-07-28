@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-	x:Class="Xamurai.MainPage"
-	xmlns="http://xamarin.com/schemas/2014/forms"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Name="_mainPage"
-	Title="XF 4 FTW!">
+<ContentPage x:Class="Xamurai.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="_mainPage"
+             Title="Xamarin FTW!">
 
 	<StackLayout>
 		<Button Command="{Binding OpenListViewCommand}" Text="List View" />
