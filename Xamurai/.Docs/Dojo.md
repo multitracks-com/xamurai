@@ -31,11 +31,15 @@ For Example, you can choose to use a Carousel View that contains flex layouts by
 **Update the Xaml**
 
 ## Instructions
+
 - Using the ListView Page:
 - add an expand / collapse animation when tapping the circle
 - When the car type is a Mercedes, it should load a different view (not the CarView) that contains a description in OpenSans font, and a gradient background
 - Add a swipe action to delete a row
 - When the device orientation changes to landscape layout, the list should scroll horizontally, not vertically (long-press to present the user with a "do you want to delete? dialog")
+
+#### Stretch Goals
+
 - When the ListView Page loads, the device status bar should not be visible
 
 
