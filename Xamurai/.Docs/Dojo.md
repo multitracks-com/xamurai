@@ -26,5 +26,16 @@ For Example, you can choose to use a Carousel View that contains flex layouts by
 - The implementation should cater for template resizing (tap the circle to collapse the template)
 - Implement in iOS as well
 
+# Dojo Challenge #2
+
+**Update the Xaml**
+
+## Instructions
+- Using the ListView Page:
+- add an expand / collapse animation when tapping the circle
+- When the car type is a Mercedes, it should load a different view (not the CarView) that contains a description in OpenSans font, and a gradient background
+- Add a swipe action to delete a row
+- When the device orientation changes to landscape layout, the list should scroll horizontally, not vertically (long-press to present the user with a "do you want to delete? dialog")
+
 
 

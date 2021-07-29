@@ -6,11 +6,11 @@
              Title="Xamarin FTW!">
 
 	<StackLayout>
-		<Button Command="{Binding OpenListViewCommand}" Text="List View" />
+		<Button Command="{Binding OpenListViewCommand}" Text="List View (Challenge #2)" />
 		<Button Command="{Binding OpenCollectionViewCommand}" Text="Collection View" />
 		<Button Command="{Binding OpenCarouselViewCommand}" Text="Carousel View" />
 		<Button Command="{Binding OpenFlexLayoutViewCommand}" Text="Flex Layout View" />
-		<Button Command="{Binding OpenPagedCollectionViewCommand}" Text="Paged Collection View" />
+		<Button Command="{Binding OpenPagedCollectionViewCommand}" Text="Challenge #1: Paged Collection View" />
 	</StackLayout>
 
 </ContentPage>

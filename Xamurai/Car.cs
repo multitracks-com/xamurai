@@ -13,9 +13,9 @@ namespace Xamurai
 			set { SetProperty(ref _abbreviation, value); }
 		}
 
-		private string _make;
+		private CarMake _make;
 
-		public string Make
+		public CarMake Make
 		{
 			get { return _make; }
 			set { SetProperty(ref _make, value); }
@@ -53,5 +53,12 @@ namespace Xamurai
 			set { SetProperty(ref _color, value); }
 		}
 
+	}
+
+	public enum CarMake
+	{
+		VolksWagen,
+		Mercedes,
+		BMW
 	}
 }
