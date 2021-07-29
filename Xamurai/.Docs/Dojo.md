@@ -17,7 +17,7 @@ Implement a collection view for a collection of cars (see some of the Experiment
 
 For Example, you can choose to use a Carousel View that contains flex layouts by splitting the collection,	or by implementing a snap behavior for a flex layout that scrolls to the next 2 columns on swipe.
 
-- Target Android as primary platform
+- You may choose to target Android or iOS as primary platform - bonus if it works well on both ;)
 - Feel free to add / remove / upgrade / downgrade nuget packages to help you with your task
 - Recommendation is not to spend more than 3 - 4 hours on this task. If incomplete, just add some notes as to your intent for what you did do.
 
