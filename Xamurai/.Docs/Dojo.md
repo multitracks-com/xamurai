@@ -36,6 +36,7 @@ For Example, you can choose to use a Carousel View that contains flex layouts by
 - When the car type is a Mercedes, it should load a different view (not the CarView) that contains a description in OpenSans font, and a gradient background
 - Add a swipe action to delete a row
 - When the device orientation changes to landscape layout, the list should scroll horizontally, not vertically (long-press to present the user with a "do you want to delete? dialog")
+- When the ListView Page loads, the device status bar should not be visible
 
 
 
