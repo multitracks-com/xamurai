@@ -1,9 +1,7 @@
 ﻿using Prism.Commands;
-using System;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin.Essentials;
 using System.ComponentModel;
 
 namespace Xamurai
